@@ -1,0 +1,81 @@
+@font-face	{
+	font-family: fontawesome;
+	src: url(../fonts/fontawesome-webfont.woff);
+}
+
+/*       Fonts
+
+font-family: 'Lora', serif;
+
+font-family: 'Open Sans', sans-serif;*/
+
+.navbar-nav>li>a {
+	color: #130A01;
+}
+
+body, .jumbotron p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.jumbotron {
+	font-family: 'Lora', serif;
+	color: #050227;
+	text-align: center;
+	height: 590px;
+	background-image: url(../img/headerv2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#masthead {
+	margin-top: 150px;
+	padding: 0;
+	border-radius: 2px;
+
+
+}
+
+h2 {
+	font-family: 'Lora', serif;
+}
+
+footer {
+	background-color: #9AAAAE;
+	text-align: center;
+}
+
+footer p {
+	margin-bottom: 0;
+}
+
+.icons {
+	padding: 0;
+}
+
+.icons li {
+	list-style: none;
+	display: inline;
+}
+
+.fa-github:before {
+	font-family: fontawesome;
+	content: "\f09b";
+	font-size: 2em;
+	color: #D3C3B9;
+
+}
+
+.fa-twitter:before {
+	font-family: fontawesome;
+	content: "\f099";
+	font-size: 2em;
+	color: white;
+
+}
+
+.fa-facebook:before {
+	font-family: fontawesome;
+	content: "\f09a";
+	font-size: 2em;
+	color: white;
+}
