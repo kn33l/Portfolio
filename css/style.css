@@ -31,6 +31,9 @@ body, .jumbotron p {
 	margin-top: 150px;
 	padding: 0;
 	border-radius: 2px;
+	background: rgba(255,255,255, 0.5);
+	width: 400px;
+	border-radius: 5px;
 
 
 }
@@ -39,43 +42,121 @@ h2 {
 	font-family: 'Lora', serif;
 }
 
+.rule {
+	border-color: rgba(51,51,51,0.41);
+	width: 120px;
+}
+
+.portfolio h2, h3 {
+	text-align: center;
+}
+
+.portfolio-icon {
+	text-align: center;
+	color: #333;
+}
+
+.work h2 {
+	text-align: center;
+}
+
+.about {
+
+}
+
+.about h2 {
+	text-align: center;
+}
+
 footer {
 	background-color: #9AAAAE;
-	text-align: center;
+	padding: 40px 0;
 }
 
 footer p {
 	margin-bottom: 0;
+	font-size: 0.80em;
+}
+
+.form-group {
+	margin-bottom: 5px;
+}
+
+#contact {
+	height: 330px;
+	border-right: 1px solid;
+}
+
+#social {
+	height: 330px;
+	border-right: 1px solid;
 }
 
 .icons {
 	padding: 0;
+	margin-top: 15px;
+	margin-left: 15px;
+	/*text-align: center;*/
 }
 
 .icons li {
 	list-style: none;
-	display: inline;
+	/*display: inline;*/
+	padding-right: 15px;
 }
 
-.fa-github:before {
+.icon {
 	font-family: fontawesome;
+	/*font-size: 2.5em;*/
+	margin-right: 10px;
+	
+}
+
+.icons a {
+	color: #333;
+}
+
+.icons a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.socialtext {
+	font-size: 0.8em;
+}
+
+/*.fa-icon-mobile-phone:before{
+	content:"\f10b";
+}*/
+
+.fa-github:before {
+	
 	content: "\f09b";
-	font-size: 2em;
-	color: #D3C3B9;
+	
 
 }
 
 .fa-twitter:before {
-	font-family: fontawesome;
+	
 	content: "\f099";
-	font-size: 2em;
-	color: white;
+	
 
 }
 
 .fa-facebook:before {
-	font-family: fontawesome;
+	
 	content: "\f09a";
-	font-size: 2em;
-	color: white;
+	
+}
+
+.fa-email:before {
+	
+	content: "\f003";
+	
+}
+
+#rights {
+	text-align: center;
+	font-size: 0.70em;
+	padding-top: 20px;
 }

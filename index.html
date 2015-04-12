@@ -14,6 +14,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!-- Custom styles for this template -->
     <link href="css/jumbotron.css" rel="stylesheet">
@@ -41,12 +42,14 @@
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
+            <!-- <span class="icon-bar"></span> -->
             <span class="icon-bar"></span>
           </button>
         </div>
         <div id="navbar" class="navbar-collapse collapse navbar-right">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
+            <!-- <li><a href="#portfolio">Portfolio</a></li> -->
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
@@ -58,14 +61,68 @@
     <div class="jumbotron">
       <div class="container" id="masthead">
         <h1>Neil Taylor</h1>
-        <p>A really nice guy who makes great websites</p>
-        <p><a class="btn btn-default btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+        <p>Freelance Web Designer Extraordinaire</p>
+        <p><a class="btn btn-default btn-lg" href="#" role="button">Contact Me &raquo;</a></p>
       </div>
     </div>
 
-    <div class="container">
-      <!-- Example row of columns -->
+    <div class="container portfolio">
       <div class="row">
+        <div class="col-lg-12">
+        <a name="portfolio"></a><h2>What I Do</h2>
+        <hr class="rule">
+          <div class="row">
+            <div class="col-lg-4">
+              <p class="portfolio-icon"><i class="fa fa-desktop fa-align-center fa-5x"></i></p>
+              <h3>Web Design</h3>
+              <p>Using the latest technology and standards I help to build individually tailored websites, that will work across all browsers, for small-medium businesses. We'll sit down and discuss what you want from a site, what your customers will want from your site, and I will work with you to design the quality online presence that your business needs in todays online world. </p>
+              <br>
+              <p>Have a look at some of my other work below, and if you like what you see just <a href="#contact">get in touch</a>.</p>
+            </div>
+
+            <div class="col-lg-4">
+              <p class="portfolio-icon"><i class="fa fa-mobile-phone fa-align-center fa-5x"></i></p>
+              <h3>Responsive Design</h3>
+              <p>When people want to find something these days they aren't always behind a monitor, mobile web browsing has now exceeded PC usage. Because of this it is vital that your website looks good on smartphones. With a little help from the Bootstrap framework I create fully responsive websites, ensuring that your brand is showcased and seen exactly how you want it to, whatever device customers are using. </p>
+              <br>
+              <p>Try resizing this browser window, my site still looks awesome right? </p>
+            </div>
+            
+            <div class="col-lg-4">
+              <p class="portfolio-icon"><i class="fa fa-wrench fa-align-center fa-5x"></i></p>
+              <h3>Web Development</h3>
+              <p>Specialising in Front-end design I hand-code all of my sites using the latest HTML5 & CSS3 standards, I also use version control meaning that any changes made can be rolled back. I will create your own unique vision to convey your brand in exactly the style that you want it. I have a passion for building efficent, responsive, and interactive content that you and your customers will love. </p>
+              <br>
+              <p>If you have an idea you want to talk about I would love to sit down and chat, please <a href="#contact">get in touch</a> </p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+    </div>
+    
+    <div class="container work">
+      <div class="row">
+        <div class="col-lg-12">
+        <a name="#work"></a><h2>My Work</h2>
+        <hr class="rule">
+        </div>
+      </div>
+    </div>
+
+    <div class="container about">
+      <div class="row">
+        <div class="col-lg-12">
+        <a name="#about"></a><h2>About Me</h2>
+        <hr class="rule">
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="container"> -->
+      <!-- Example row of columns -->
+      <!-- <div class="row">
         <div class="col-md-4">
           <h2>Heading</h2>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
@@ -84,25 +141,62 @@
       </div>
 
       <hr>
-      </div>
+      </div> -->
        <!-- /container -->
 
       <footer>
         <div class="footer">
           <div class="container narrow row-fluid">
-            <div class="col-lg-12">
-              <h3>Social Media</h3>
-              <ul class="icons">
-                <li><a href="#" class="icon fa-github"></a></li>
-                <li><a href="#" class="icon fa-twitter"></a></li>
-                <li><a href="#" class="icon fa-facebook"></a></li>
-              </ul>
-              <p>&copy; Neil Taylor. | All rights reserved.</p>
-            </div>
+            <div class="row">
+
+              <div class="col-lg-5" id="contact" >
+                <a name="contact"></a><h3>Contact Me</h3>
+                <form>
+                  <div class="form-group">
+                    <label for="inputName">Name</label>
+                    <input type="text" class="form-control input-sm" id="inputName" placeholder="Name"></input>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputEmail">Email</label>
+                    <input type="email" class="form-control input-sm" id="inputEmail" placeholder"Email"></input>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputMessage">Message</label>
+                    <textarea class="form-control input-sm" rows="3" id="inputMessage" placeholder="Please enter your message here"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+              </div>
+              
+              <div class="col-lg-4" id="social">
+                <h3>Let's Be Internet Friends!</h3>
+                <p>If you have an idea for a site you need made, or just want to chat about Game of Thrones, get in touch via Social Media or drop me an email.</p>
+                <ul class="icons">
+                  <li><a href="#" class="icon fa fa-github fa-3x"></a><a href="#" class="socialtext">github.com/neiltaylor84</a></li>
+                  <li><a href="#" class="icon fa fa-twitter fa-3x"></a><a href="#" class="socialtext">twitter.com/neiltaylorpoker</a></li>
+                  <li><a href="#" class="icon fa fa-facebook fa-3x"></a><a href="#" class="socialtext">facebook.com/neiltaylor1984</a></li>
+                  <li><a href="#" class="icon fa fa-email fa-3x"></a><a href="#" class="socialtext">neiltaylor1984@gmail.com</a></li>
+                </ul>
+              </div>
+              
+              <div class="col-lg-3" id="address">
+                <h3>Telephone</h3>
+                <p>01536 599 888</p>
+                <h3>Address</h3>
+                <p>2 Greig Walk
+                <br>
+                Corby
+                <br>
+                Northants
+                <br>
+                NN189DJ
+                </p>
+              </div>
+
+              </div>
+              <p id="rights">&copy; Neil Taylor. | All rights reserved.</p>
           </div>
-          
         </div>
-        
       </footer>
     
 
